@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+  <mapID target="main" url="html/help.html" />
+  <mapID target="dm.basics" url="html/dm_basics.html" />
+  <mapID target="dm.whatis" url="html/dm_whatis.html" />
+  <mapID target="dm.motivations" url="html/dm_motivations.html" />
+  <mapID target="dm.main_techniques" url="html/dm_maintech.html" />
+  <mapID target="ar.kr" url="html/ar_kr.html" />
+  <mapID target="ar.whatis" url="html/ar_whatis.html" />
+  <mapID target="ar.samples" url="html/ar_samples.html" />
+  <mapID target="ar.prob_sol" url="html/ar_probsol.html" />
+  <mapID target="engar" url="html/engar.html" />
+  <mapID target="engar.whatis" url="html/engar_whatis.html" />
+  <mapID target="engar.whatuses" url="html/engar_whatuses.html" />
+  <mapID target="engar.the_ui" url="html/engar_ui.html" />
+  <mapID target="engar.the_ui.input" url="html/engar_input.html" />
+  <mapID target="engar.the_ui.generalize" url="html/engar_generalize.html" />
+  <mapID target="engar.the_ui.analise" url="html/engar_analise.html" />
+  <mapID target="engar.the_ui.analise.measures" url="html/engar_measures.html" />
+  <mapID target="developer" url="html/dev.html" />
+  <mapID target="developer.class_diag" url="html/dev_class.html" />
+</map>
+

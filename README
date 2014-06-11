@@ -1,0 +1,17 @@
+
+Created by Matheus G. Figueiredo and Marcos A. Domingues
+Date: 20/01/2007
+Contact: maddomingues@gmail.com
+
+
+ENGAR - A Desktop Environment to Generalize Association Rules
+
+
+TO INSTALL
+
+Read the file INSTALL.
+
+TO RUN
+
+java -jar DataMining.jar
+

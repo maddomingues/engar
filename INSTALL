@@ -1,0 +1,54 @@
+=========================
+Criação do banco de dados
+=========================
+
+A primeira versão do sistema usava o banco "AR", esta segunda versão teve 
+algumas alterações e para evitar alterar o banco anterior optei por 
+gravar em um novo banco, chamado "ENGAR"
+
+Para criar esse banco, siga os seguintes passos:
+
+1) Iniciar o postgresql 8.1
+
+2) Criar o usuário "ar" (usado pelo sistema para conectar ao banco de 
+dados), com permissões de criar banco de dados 
+(obs.: é o mesmo usuário da versão anterior, pode pular essa etapa). 
+
+$createuser ar
+A nova role poderá criar um super-usuário? (s/n) n
+A nova role poderá criar bancos de dados? (s/n) s
+A nova role poderá criar novas roles? (s/n) n
+CREATE ROLE
+
+3) Dar permissões ao usuário "AR" de conectar ao banco de dados sem 
+senha, mesmo que o comando seja emitido por qualquer outro usuário no 
+sistema. Isso é feito alterando o arquivo de configuração do postgres 
+(pg_hba.conf), adicionando as linhas 
+
+local	all	ar	trust
+host	all	ar	127.0.0.1/32	trust
+
+logo após a linha abaixo (que geralmente é a primeira linha não comentada 
+deste arquivo)
+
+local	all	postgres	ident sameuser
+
+4) Reiniciar o postgres, para que ele recarregue esse arquivo de 
+configuração
+
+5) Como seu usuário normal, executar o comando abaixo, criando o banco de 
+dados "ENGAR" de propriedade do usuário recém-criado "AR"
+
+psql postgres ar < engar.sql
+
+====================
+Execução do programa
+====================
+
+1) Copiar o diretório lib\ da versão antiga para o mesmo local do arquivo 
+DataMining.jar desta nova versão
+
+2) Executar o arquivo DataMining.jar através do java:
+
+$ java -jar DataMining.jar
+

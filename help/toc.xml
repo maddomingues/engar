@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+         "../dtd/toc_2_0.dtd">
+
+<toc version="2.0">
+
+<tocitem text="Topics" image="toplevelfolder">
+    
+  
+  <tocitem text="Basic of Data Mining" target="dm.basics">
+    <tocitem text="What is Data Mining?" target="dm.whatis"/>
+    <tocitem text="Motivations" target="dm.motivations"/>
+    <tocitem text="Main Techniques" target="dm.main_techniques"/>
+  </tocitem>
+  <tocitem text="Knowledge Representation with AR" target="ar.kr">
+    <tocitem text="what are AR?" target="ar.whatis"/>
+    <tocitem text="samples" target="ar.samples"/>
+    <tocitem text="problems and solutions" target="ar.prob_sol"/>
+  </tocitem>
+  <tocitem text="Engar" target="engar">
+    <tocitem text="what is" target="engar.whatis"/>
+    <tocitem text="what uses" target="engar.whatuses"/>
+    <tocitem text="The UI" target="engar.the_ui">
+      <tocitem text="input panel" target="engar.the_ui.input"/>
+      <tocitem text="generalize panel" target="engar.the_ui.generalize"/>
+      <tocitem text="analise panel" target="engar.the_ui.analise">
+        <tocitem text="pluggable measures" target="engar.the_ui.analise.measures"/>
+      </tocitem>
+    </tocitem>
+  </tocitem>
+  <tocitem text="Developer" target="developer">
+    <tocitem text="Class diagrams" target="developer.class_diag"/>
+  </tocitem>
+</tocitem>
+
+</toc>
+    
